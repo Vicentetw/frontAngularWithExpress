@@ -23,11 +23,11 @@
                 </p>
   
   
-                <form #f="ngForm" (ngSubmit)="onSubmit()" novalidate>
+                <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
   
                   <div class="form-outline form-white mb-4">
-                    <input type="email" id="nombre" name="nombre" class="form-control form-control-lg"
-                      [(ngModel)]="nombre" required />
+                    <input type="text" id="user" name="user" class="form-control form-control-lg"
+                      [(ngModel)]="user" required />
                     <label class="form-label" for="nombre">Usuario</label>
                   </div>
   
